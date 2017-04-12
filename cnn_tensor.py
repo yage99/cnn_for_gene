@@ -1,28 +1,4 @@
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-# ==============================================================================
 
-"""A very simple MNIST classifier, modified to display data in TensorBoard.
-
-See extensive documentation for the original model at
-http://tensorflow.org/tutorials/mnist/beginners/index.md
-
-See documentation on the TensorBoard specific pieces at
-http://tensorflow.org/how_tos/summaries_and_tensorboard/index.md
-
-If you modify this file, please update the excerpt in
-how_tos/summaries_and_tensorboard/index.md.
-
-"""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -35,7 +11,6 @@ import random
 from sklearn.metrics import roc_curve, auc
 import matplotlib.pyplot as plt
 
-from tensorflow.examples.tutorials.mnist import input_data
 from sklearn.cross_validation import KFold
 
 
